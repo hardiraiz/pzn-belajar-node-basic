@@ -1,0 +1,27 @@
+{
+  "name": "npm",
+  "version": "1.0.0",
+  "description": "belajar nodejs npm",
+  "exports": {
+    ".": "./index.js",
+    "./write": "./write.js"
+  },
+  "scripts": {
+    "prestart": "echo 'Before Application Start'",
+    "start": "node index.js",
+    "poststart": "echo 'After Application Start'",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node index.js"
+  },
+  "keywords": [
+    "npm",
+    "nodejs",
+    "belajar"
+  ],
+  "author": "Hardi Raiz",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "lodash": "~4.17.21"
+  }
+}
