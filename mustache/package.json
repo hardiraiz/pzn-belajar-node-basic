@@ -1,0 +1,28 @@
+{
+  "name": "mustache",
+  "version": "1.0.0",
+  "description": "belajar template engine mustache nodejs",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "jest"
+  },
+  "jest": {
+    "transform": {
+      "^.+\\.[t|j]sx?$": "babel-jest"
+    }
+  },
+  "author": "Hardi",
+  "license": "ISC",
+  "dependencies": {
+    "mustache": "^4.2.0"
+  },
+  "devDependencies": {
+    "@babel/plugin-transform-runtime": "^7.22.20",
+    "@babel/preset-env": "^7.22.20",
+    "babel-jest": "^28.1.0",
+    "jest": "^28.1.0",
+    "@types/jest": "^28.1.0",
+    "@types/mustache": "^4.2.0"
+  }
+}
